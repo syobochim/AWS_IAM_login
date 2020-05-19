@@ -39,7 +39,7 @@ func main() {
       info.LoginID = splited[1]
       info.Password = splited[2]
       loginInfos = append(loginInfos, info)
-      fmt.Printf("id %d : account %s : loginId %s\n", i, info.Account, info.LoginID)
+      fmt.Printf("id :  %d / accountId : %s / loginId : %s\n", i, info.Account, info.LoginID)
     }
 
     var n int
