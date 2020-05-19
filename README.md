@@ -1,4 +1,4 @@
-# AWS Login Tool
+# AWS IAM Login Tool
 
 ターミナルから実行することで、IAMアカウントを使ってブラウザログインできるツール。
 
@@ -15,9 +15,7 @@ IAMのログイン情報は、exeファイルと同じディレクトリに `log
 
 
 ```
-├── README.md
 ├── aws_login.exe
-├── aws_login.go
 └── login_info.tsv
 ```
 
