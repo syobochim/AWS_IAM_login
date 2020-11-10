@@ -16,7 +16,7 @@ IAMのログイン情報は、exeファイルと同じディレクトリに `log
 
 
 ```
-├── aws_login.exe
+├── aws_login
 └── login_info.tsv
 ```
 
@@ -36,10 +36,10 @@ IAMのログイン情報は、exeファイルと同じディレクトリに `log
 `login_info.tsv`に記載しているアカウントが一覧で表示されるので、ログインしたいアカウントに対して先頭のIDをターミナルに入力すると、対象のアカウントでログインできる。
 
 ```
-$ ./aws_login.exe
+$ ./aws_login
 どのアカウントでログインしますか？ idを入力してください。
-id :  0 / accountId : 123456789012 / loginId : account1
-id :  1 / accountId : 123456789012 / loginId : account2
+id :  1 / accountId : 123456789012 / loginId : account1
+id :  2 / accountId : 123456789012 / loginId : account2
 1
 ```
 
@@ -56,3 +56,10 @@ id :  1 / accountId : 123456789012 / loginId : account2
 再度コマンドを実行すると以下のようなポップアップに変わっているので、 **「開く」** をクリックする。
 
 <img width="490" alt="popup" src="https://user-images.githubusercontent.com/3622660/98622848-c89b3180-234d-11eb-93a4-a8b8f6d22d59.png">
+
+## How to build
+
+```
+$ go get github.com/sclevine/agouti
+$ go build aws_login.go
+```
