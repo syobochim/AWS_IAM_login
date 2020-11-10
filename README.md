@@ -38,7 +38,7 @@ IAMのログイン情報は、exeファイルと同じディレクトリに `log
 $ ./aws_login.exe
 どのアカウントでログインしますか？ idを入力してください。
 id :  0 / accountId : 123456789012 / loginId : account1
-id :  0 / accountId : 123456789012 / loginId : account2
+id :  1 / accountId : 123456789012 / loginId : account2
 1
 ```
 
