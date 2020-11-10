@@ -25,7 +25,7 @@ IAMのログイン情報は、exeファイルと同じディレクトリに `log
 <AccountID>    <LoginID>   <Password>
 ```
 
-例
+例 : それぞれの値の間はTab
 ```
 123456789012	syobochim	Password!1234
 ```
